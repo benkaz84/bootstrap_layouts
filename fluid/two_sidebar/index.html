@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="pl">
+     <head>
+          <meta charset="UTF-8" />
+		  <meta name="viewport" content="width=device-width, initial-scale=1">
+		  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+		  <link rel="stylesheet" src="css/style.css">
+		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+          <title>Strona fluid + 2 sidebar</title>
+     </head>
+     <body>
+	 
+		<!-- 
+			.justify-content-md-center – służy ona do wycentrowania kolumn w poziomie gdy nie wypełniają one całego rzędu.
+		
+		-->
+
+
+		
+		<div class="container-fluid p-5 border">
+		  <header>
+			<h1>Header</h1>
+			<p>This container has a border and some extra padding and margins.</p>
+		  </header/>
+		</div>
+
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-3 bg-primary border">			
+					Left sidebar			
+				</div>
+				<div class="col-sm-6 border">
+					Content
+				</div>
+				<div class="col-sm-3 bg-warning border">
+					Right sidebar
+				</div>
+			</div>
+			
+		</div>
+		
+		
+		<div class="container-fluid mt-5 mb-5">
+			<div class="row justify-content-md-center border">
+			  <div class="col col-sm-3 col-lg-2 bg-success">
+				1 z 3
+			  </div>
+			  <div class="col-md-auto border">
+				Szerokość zależy od treści
+			  </div>
+			  <div class="col col-sm-3 col-lg-2 border bg-primary">
+				3 z 3
+			  </div>
+			</div>
+			
+		</div>
+		
+		
+		
+
+		<div class="container-fluid p-3 my-0 bg-dark text-white">
+		  <footer>
+			  <h2>Footer</h2>
+			  <div class="row">
+				  <div class="col-sm-4">
+						11111111111111111<br/>
+						11111111111111111
+				  </div>
+				  
+				  <div class="col-sm-4">
+				  22222222222
+				  </div>
+				  
+				  <div class="col-sm-4">
+				  333333333333
+				  </div>
+			  </div>
+		  </footer>
+		</div>	
+     </body>
+</html>
