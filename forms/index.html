@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<title>Strona internetowa - Bootstrap Forms</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style1.css" type="text/css" media="screen">
+		<script src="js/jquery-3.5.1.min.js" type="text/javascript"></script>
+		
+		<!-- bootstrap 5 -->
+		  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>	
+		<!-- end bootstrap -->
+		
+	</head>
+	<body>
+	
+	<div class="container">
+
+
+		<div class="row bg-danger mb-4 p-4 text-white border border-dark rounded">
+			<div class="col-sm-8 ">
+			
+			
+			
+					<form action="form1.php">
+						<div class="form-group">
+							<label for="email">Email: </label>
+							<input type="email" class="form-control" placeholder="Wpisz swoj email" id="email" required />
+						</div>
+						<div class="form-group">
+							<label for="pwd">Hasło: </label> 
+							<input type="password" class="form-control" placeholder="Wpisz swoje hasło" id="password" required />
+						</div>
+						<div class="form-group form-check">
+							<label class="form-check-label">
+								<input type="checkbox" class="form-input-checkbox" id="remember" /> Zapamiętaj mnie 
+							</label>
+						</div>
+
+						
+						<button type="submit" class="btn btn-primary">Wyślij</button>
+					</form>
+					
+					
+					
+					
+				
+			</div>
+			<div class="col-sm-4 bg-secondary border rounded border-light">
+				<h2>Formularz logowania 1</h2>
+			</div>		
+		</div>
+		
+		
+		<div class="row p-4 mb-4 my_row">
+			<div class="col-sm-8">
+			
+				<form class="form-inline" action="form.php">
+					<div class="form-group">
+						<label for="email" class="mr-sm-2">Email: </label>
+						<input type="email" class="form-control mr-sm-2" placeholder="Wpisz email" />
+					</div>
+					<div class="form-group">
+						<label for="pwd" class="mr-2">Hasło: </label>
+						<input type="password" class="form-control mr-sm-2" placeholder="Wpisz hasło" />
+					</div>
+					
+
+						<button type="submit" class="btn btn-primary">Wyślij</button>
+
+				</form>
+			
+			
+			
+			</div>
+			
+			
+			<div class="col-sm-4 bg-secondary">
+			
+				<h2>Formularz logowania 2</h2>
+		
+			</div>
+	
+		</div>
+
+	</div>
+	
+	
+	
+		<div class="container mb-4">
+
+				<form action="form.php">
+				<div class="form-row">					
+						<div class="col-md-auto mt-sm-2">
+							<div class="float-left mt-2">
+								Email: 
+							</div>
+							<div class="float-left ml-2">
+								<input type="email" class="form-control mr-sm-2" placeholder="Wpisz email" />
+							</div>
+						</div>
+						<div class="col-md-auto mt-sm-2">
+							<div class="float-left mt-2 ">
+								Hasło:
+							</div>
+							<div class="float-left ml-2">
+								<input type="password" class="form-control mr-sm-2" placeholder="Wpisz hasło" />
+							</div>
+							
+
+							
+						</div>
+						<div class="col-md-auto mt-sm-2">
+							<button type="submit" class="btn btn-primary">Wyślij</button>
+						</div>
+					
+
+				</div>
+				</form>		
+			
+		</div>	
+		
+		
+		<div class="container">
+	
+			<form action="form2.php">
+				<div class="form-group">
+					<label for="comment">Komentarz</label>
+					<textarea class="form-control" rows="5" id="comment"></textarea>
+				</div>
+				<div class="form-group form-check">
+					<label class="form-check-label">
+						<input type="checkbox" class="form-check-input" value=""> Opcja 1
+					</label>
+				
+				</div>
+				<div class="form-group form-check">
+					<label class="form-check-label">
+						<input type="checkbox" class="form-check-input" value=""> Opcja 2				
+					</label>
+				</div>
+				
+				<div class="form-group form-check-inline">
+					<label class="form-check-label">
+						<input type="checkbox" class="form-check-input" value=""> Opcja 2				
+					</label>				
+				</div>
+				
+				<div class="form-group form-check-inline">
+					<label class="form-check-label">
+						<input type="checkbox" class="form-check-input" value=""> Opcja 2				
+					</label>				
+				</div>
+				
+				<div class="form-group form-check">
+					<label class="form-check-label">
+						<input type="radio" class="form-check-input" name="opt1"> Kobieta
+					</label>
+				</div>
+	
+				<div class="form-group form-check">
+					<label class="form-check-label">
+						<input type="radio" class="form-check-input" name="opt1"> Mężczyzna
+					</label>
+				</div>	
+				
+				<div class="form-group form-check-inline">
+					<label class="form-check-label">
+						<input type="radio" class="form-check-input" name="opt1"> Kobieta
+					</label>
+				</div>
+	
+				<div class="form-group form-check-inline">
+					<label class="form-check-label">
+						<input type="radio" class="form-check-input" name="opt1"> Mężczyzna
+					</label>
+				</div>				
+				
+				
+				<div class="form-group">
+					<label for="sl1">Wybierz: </label>
+					<select class="form-control" id="sl1">
+						<option>1</option> 
+						<option>2</option>	
+					</select>
+				</div>
+				
+				<div class="form-group">
+					<label for="sl2">Wybierz</label>
+					<select multiple class="form-control form-control-lg">
+						<option>1</option> 
+						<option>2</option>					
+						<option>3</option> 
+						<option>4</option>
+					</select>
+				</div>
+				
+				
+				<button type="submit" class="btn btn-primary">Submit</button>
+			</form>
+	
+	
+		</div>
+	
+	
+	
+	
+	</body>
+</html>
