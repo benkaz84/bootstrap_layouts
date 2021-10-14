@@ -19,8 +19,11 @@
 	
 	<div class="container">
 
-
+		<h2>Default form</h2>
+			
 		<div class="row bg-danger mb-4 p-4 text-white border border-dark rounded">
+			
+
 			<div class="col-sm-8 ">
 			
 			
@@ -54,6 +57,8 @@
 			</div>		
 		</div>
 		
+		
+		<h2>Default form-inline</h2>
 		
 		<div class="row p-4 mb-4 my_row">
 			<div class="col-sm-8">
@@ -92,6 +97,8 @@
 	
 		<div class="container mb-4">
 
+					<h2>Default form-inline custom code</h2>
+
 				<form action="form.php">
 				<div class="form-row">					
 						<div class="col-md-auto mt-sm-2">
@@ -125,7 +132,7 @@
 		
 		
 		<div class="container">
-	
+					<h2>Control and inputs</h2>
 			<form action="form2.php">
 				<div class="form-group">
 					<label for="comment">Komentarz</label>
@@ -204,6 +211,80 @@
 	
 	
 		</div>
+		
+		
+		<div class="container">
+			<h2>Input group</h2>
+		
+			<form action="form1.php">
+				<div class="input-group mb-3">
+					<div class="input-group-prepend">
+						<span class="input-group-text">Username</span>
+					</div>
+					<input type="text" class="form-control" placeholder="Insert name" />
+				</div>
+				<div class="input-group mb-3">
+					<input type="email" class="form-control" placeholder="Insert email" />
+					<div class="input-group-append">
+						<span class="input-group-text">@gmail.com</span>
+					</div>
+				</div>	
+
+				<div class="input-group mb-3">
+					<input type="text" class="form-control" placeholder="Insert name" />					
+					<div class="input-group-append">
+						<div class="input-group-text">
+							<input type="checkbox" />
+						</div>
+						
+						<button type="submit" class="btn btn-success">GO</button>
+						
+					</div>
+				
+				</div>
+				
+			</form>
+		
+		</div>
+		
+		
+		<div class="container">
+			<h2>Custom form</h2>
+			
+			
+			<form action="action.php">
+				<div class="custom-control custom-checkbox">
+					<input type="checkbox" class="custom-control-input" id="customCheck">
+					<label class="custom-control-label" for="customCheck"> Custom checkbox</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" class="custom-control-input" id="customRadio1" name="opt1"> 					
+					<label class="custom-control-label" for="customRadio1">
+						Radio1
+					</label>
+				</div>	
+				<div class="custom-control custom-radio custom-control-inline">
+						<input type="radio" class="custom-control-input" id="customRadio2" name="opt1">
+					<label class="custom-control-label" for="customRadio2">
+						Radio2
+					</label>
+				</div>
+				<div class="custom-control custom-switch">
+						<input type="checkbox" class="custom-control-input" id="switch1">
+					<label class="custom-control-label" for="switch1">
+						Switch
+					</label>
+				</div>
+
+
+				
+			</form>
+		
+		
+		</div>
+		
+		
+		
 	
 	
 	
